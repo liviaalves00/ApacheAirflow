@@ -1,0 +1,48 @@
+[2024-06-21T12:31:20.637+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-21T12:31:20.652+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: branchtest.branch_task manual__2024-06-21T12:31:19.286738+00:00 [queued]>
+[2024-06-21T12:31:20.657+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: branchtest.branch_task manual__2024-06-21T12:31:19.286738+00:00 [queued]>
+[2024-06-21T12:31:20.657+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-21T12:31:20.665+0000] {taskinstance.py:2330} INFO - Executing <Task(BranchPythonOperator): branch_task> on 2024-06-21 12:31:19.286738+00:00
+[2024-06-21T12:31:20.669+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1036) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-21T12:31:20.670+0000] {standard_task_runner.py:63} INFO - Started process 1037 to run task
+[2024-06-21T12:31:20.671+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'branchtest', 'branch_task', 'manual__2024-06-21T12:31:19.286738+00:00', '--job-id', '399', '--raw', '--subdir', 'DAGS_FOLDER/brachs.py', '--cfg-path', '/tmp/tmp6szu0irw']
+[2024-06-21T12:31:20.672+0000] {standard_task_runner.py:91} INFO - Job 399: Subtask branch_task
+[2024-06-21T12:31:20.706+0000] {task_command.py:426} INFO - Running <TaskInstance: branchtest.branch_task manual__2024-06-21T12:31:19.286738+00:00 [running]> on host 55c563b9c0dc
+[2024-06-21T12:31:20.773+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='branchtest' AIRFLOW_CTX_TASK_ID='branch_task' AIRFLOW_CTX_EXECUTION_DATE='2024-06-21T12:31:19.286738+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-21T12:31:19.286738+00:00'
+[2024-06-21T12:31:20.774+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-21T12:31:20.781+0000] {baseoperator.py:400} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2024-06-21T12:31:20.787+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-21T12:31:20.788+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 269, in execute
+    return self.do_branch(context, super().execute(context))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/brachs.py", line 25, in even_or_odd
+    if value % 2 == 0:
+       ~~~~~~^~~
+TypeError: unsupported operand type(s) for %: 'NoneType' and 'int'
+[2024-06-21T12:31:20.792+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=branchtest, task_id=branch_task, run_id=manual__2024-06-21T12:31:19.286738+00:00, execution_date=20240621T123119, start_date=20240621T123120, end_date=20240621T123120
+[2024-06-21T12:31:20.800+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 399 for task branch_task (unsupported operand type(s) for %: 'NoneType' and 'int'; 1037)
+[2024-06-21T12:31:20.844+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-21T12:31:20.890+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-21T12:31:20.894+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

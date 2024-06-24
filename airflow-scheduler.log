@@ -1,0 +1,43 @@
+2024-06-20 09:09:40,036 INFO - Task context logging is enabled
+2024-06-20 09:09:40,036 INFO - Loaded executor: SequentialExecutor
+2024-06-20 09:09:40,055 INFO - Starting the scheduler
+2024-06-20 09:09:40,055 INFO - Processing each file at most -1 times
+2024-06-20 09:09:40,058 INFO - Launched DagFileProcessorManager with pid: 113117
+2024-06-20 09:09:40,059 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 09:09:40,061 INFO - Configured default timezone UTC
+2024-06-20 09:14:40,224 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 09:19:40,294 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 09:24:40,456 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 09:29:40,620 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 09:34:40,777 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 09:39:40,916 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 09:44:41,065 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 09:49:41,236 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 09:54:41,378 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 09:59:41,541 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:04:41,702 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:09:41,842 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:14:41,996 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:19:42,158 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:24:42,303 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:29:42,451 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:34:42,717 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:39:42,888 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:44:43,029 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:49:43,172 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:54:43,326 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 10:59:43,469 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:04:43,616 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:09:43,761 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:14:43,929 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:19:44,095 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:24:44,237 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:29:44,391 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:34:44,550 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:39:44,706 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:44:44,862 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:49:44,903 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:54:45,058 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 11:59:45,199 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 12:04:45,457 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-20 12:09:45,724 INFO - Adopting or resetting orphaned tasks for active dag runs

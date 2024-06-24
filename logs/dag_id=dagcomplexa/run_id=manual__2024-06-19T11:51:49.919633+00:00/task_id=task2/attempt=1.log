@@ -1,0 +1,23 @@
+[2024-06-19T11:51:56.471+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-19T11:51:56.486+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dagcomplexa.task2 manual__2024-06-19T11:51:49.919633+00:00 [queued]>
+[2024-06-19T11:51:56.491+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dagcomplexa.task2 manual__2024-06-19T11:51:49.919633+00:00 [queued]>
+[2024-06-19T11:51:56.492+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-19T11:51:56.501+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): task2> on 2024-06-19 11:51:49.919633+00:00
+[2024-06-19T11:51:56.507+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1003) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-19T11:51:56.507+0000] {standard_task_runner.py:63} INFO - Started process 1005 to run task
+[2024-06-19T11:51:56.507+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dagcomplexa', 'task2', 'manual__2024-06-19T11:51:49.919633+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/dagcomplexa.py', '--cfg-path', '/tmp/tmpq2bthor4']
+[2024-06-19T11:51:56.508+0000] {standard_task_runner.py:91} INFO - Job 50: Subtask task2
+[2024-06-19T11:51:56.538+0000] {task_command.py:426} INFO - Running <TaskInstance: dagcomplexa.task2 manual__2024-06-19T11:51:49.919633+00:00 [running]> on host 61c28926c6e1
+[2024-06-19T11:51:56.588+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dagcomplexa' AIRFLOW_CTX_TASK_ID='task2' AIRFLOW_CTX_EXECUTION_DATE='2024-06-19T11:51:49.919633+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-19T11:51:49.919633+00:00'
+[2024-06-19T11:51:56.588+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-19T11:51:56.596+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-19T11:51:56.597+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sleep 5']
+[2024-06-19T11:51:56.604+0000] {subprocess.py:86} INFO - Output:
+[2024-06-19T11:52:01.606+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-19T11:52:01.608+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-19T11:52:01.638+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dagcomplexa, task_id=task2, run_id=manual__2024-06-19T11:51:49.919633+00:00, execution_date=20240619T115149, start_date=20240619T115156, end_date=20240619T115201
+[2024-06-19T11:52:01.679+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-19T11:52:01.708+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-19T11:52:01.709+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
