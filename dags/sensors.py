@@ -15,14 +15,14 @@ dag = DAG(
 
 
 def query_api():
-    response = requests.get("https://api.publicapis.org/entries")
-    print(response.txt)
+    response = requests.get("https://catfact.ninja/fact")
+    print(response.text)
 
 
 check_api = HttpSensor(
     task_id="check_api",
-    http_conn_id="connection",
-    endpoint="entries",
+    http_conn_id="catfact_connection",  # mesmo nome da conncction criada no airflow
+    endpoint="fact",
     poke_interval=5,
     timeout=20,
     dag=dag,

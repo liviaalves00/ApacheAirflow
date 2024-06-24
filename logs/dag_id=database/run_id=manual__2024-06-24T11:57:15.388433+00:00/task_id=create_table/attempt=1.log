@@ -1,0 +1,52 @@
+[2024-06-24T11:57:16.237+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-24T11:57:16.251+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: database.create_table manual__2024-06-24T11:57:15.388433+00:00 [queued]>
+[2024-06-24T11:57:16.256+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: database.create_table manual__2024-06-24T11:57:15.388433+00:00 [queued]>
+[2024-06-24T11:57:16.256+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-24T11:57:16.264+0000] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): create_table> on 2024-06-24 11:57:15.388433+00:00
+[2024-06-24T11:57:16.267+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=386) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-24T11:57:16.267+0000] {standard_task_runner.py:63} INFO - Started process 387 to run task
+[2024-06-24T11:57:16.268+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'database', 'create_table', 'manual__2024-06-24T11:57:15.388433+00:00', '--job-id', '432', '--raw', '--subdir', 'DAGS_FOLDER/databse.py', '--cfg-path', '/tmp/tmphnjtumky']
+[2024-06-24T11:57:16.268+0000] {standard_task_runner.py:91} INFO - Job 432: Subtask create_table
+[2024-06-24T11:57:16.292+0000] {task_command.py:426} INFO - Running <TaskInstance: database.create_table manual__2024-06-24T11:57:15.388433+00:00 [running]> on host e3e60e62d12c
+[2024-06-24T11:57:16.342+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='database' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2024-06-24T11:57:15.388433+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-24T11:57:15.388433+00:00'
+[2024-06-24T11:57:16.343+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-24T11:57:16.351+0000] {sql.py:276} INFO - Executing: create table if not exists test(id it);
+[2024-06-24T11:57:16.355+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2024-06-24T11:57:16.360+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2024-06-24T11:57:16.362+0000] {sql.py:487} INFO - Running statement: create table if not exists test(id it);, parameters: None
+[2024-06-24T11:57:16.363+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-24T11:57:16.363+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 435, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 492, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedObject: type "it" does not exist
+LINE 1: create table if not exists test(id it);
+                                           ^
+
+[2024-06-24T11:57:16.368+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=database, task_id=create_table, run_id=manual__2024-06-24T11:57:15.388433+00:00, execution_date=20240624T115715, start_date=20240624T115716, end_date=20240624T115716
+[2024-06-24T11:57:16.375+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 432 for task create_table (type "it" does not exist
+LINE 1: create table if not exists test(id it);
+                                           ^
+; 387)
+[2024-06-24T11:57:16.400+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-24T11:57:16.419+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1297: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-06-24T11:57:16.433+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-24T11:57:16.436+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

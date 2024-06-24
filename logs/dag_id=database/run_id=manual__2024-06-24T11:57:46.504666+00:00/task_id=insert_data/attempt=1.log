@@ -1,0 +1,27 @@
+[2024-06-24T11:57:48.504+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-24T11:57:48.519+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: database.insert_data manual__2024-06-24T11:57:46.504666+00:00 [queued]>
+[2024-06-24T11:57:48.524+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: database.insert_data manual__2024-06-24T11:57:46.504666+00:00 [queued]>
+[2024-06-24T11:57:48.524+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-24T11:57:48.532+0000] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): insert_data> on 2024-06-24 11:57:46.504666+00:00
+[2024-06-24T11:57:48.535+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=397) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-24T11:57:48.535+0000] {standard_task_runner.py:63} INFO - Started process 398 to run task
+[2024-06-24T11:57:48.536+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'database', 'insert_data', 'manual__2024-06-24T11:57:46.504666+00:00', '--job-id', '434', '--raw', '--subdir', 'DAGS_FOLDER/databse.py', '--cfg-path', '/tmp/tmp8v78nhkf']
+[2024-06-24T11:57:48.536+0000] {standard_task_runner.py:91} INFO - Job 434: Subtask insert_data
+[2024-06-24T11:57:48.562+0000] {task_command.py:426} INFO - Running <TaskInstance: database.insert_data manual__2024-06-24T11:57:46.504666+00:00 [running]> on host e3e60e62d12c
+[2024-06-24T11:57:48.609+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='database' AIRFLOW_CTX_TASK_ID='insert_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-24T11:57:46.504666+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-24T11:57:46.504666+00:00'
+[2024-06-24T11:57:48.610+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-24T11:57:48.617+0000] {sql.py:276} INFO - Executing: insert into test values(1);
+[2024-06-24T11:57:48.621+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2024-06-24T11:57:48.626+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2024-06-24T11:57:48.628+0000] {sql.py:487} INFO - Running statement: insert into test values(1);, parameters: None
+[2024-06-24T11:57:48.629+0000] {sql.py:496} INFO - Rows affected: 1
+[2024-06-24T11:57:48.631+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-24T11:57:48.635+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=database, task_id=insert_data, run_id=manual__2024-06-24T11:57:46.504666+00:00, execution_date=20240624T115746, start_date=20240624T115748, end_date=20240624T115748
+[2024-06-24T11:57:48.668+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-24T11:57:48.684+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1297: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-06-24T11:57:48.696+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-24T11:57:48.698+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
