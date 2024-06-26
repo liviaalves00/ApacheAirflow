@@ -1,0 +1,44 @@
+[2024-06-26T14:33:02.041+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-26T14:33:02.055+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: windturbine.get_data scheduled__2024-06-26T14:30:00+00:00 [queued]>
+[2024-06-26T14:33:02.060+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: windturbine.get_data scheduled__2024-06-26T14:30:00+00:00 [queued]>
+[2024-06-26T14:33:02.060+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-06-26T14:33:02.067+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_data> on 2024-06-26 14:30:00+00:00
+[2024-06-26T14:33:02.071+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=133) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-26T14:33:02.072+0000] {standard_task_runner.py:63} INFO - Started process 135 to run task
+[2024-06-26T14:33:02.072+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'windturbine', 'get_data', 'scheduled__2024-06-26T14:30:00+00:00', '--job-id', '577', '--raw', '--subdir', 'DAGS_FOLDER/windturbine.py', '--cfg-path', '/tmp/tmp6kxj0v86']
+[2024-06-26T14:33:02.073+0000] {standard_task_runner.py:91} INFO - Job 577: Subtask get_data
+[2024-06-26T14:33:02.097+0000] {task_command.py:426} INFO - Running <TaskInstance: windturbine.get_data scheduled__2024-06-26T14:30:00+00:00 [running]> on host 98350b7a6ca8
+[2024-06-26T14:33:02.146+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='liviataina.ltab@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='windturbine' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-26T14:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-26T14:30:00+00:00'
+[2024-06-26T14:33:02.146+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-26T14:33:02.193+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-26T14:33:02.193+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/windturbine.py", line 42, in process_file
+    with open(Variable.get("path_file_json"), "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/data.json'
+[2024-06-26T14:33:02.202+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=windturbine, task_id=get_data, run_id=scheduled__2024-06-26T14:30:00+00:00, execution_date=20240626T143000, start_date=20240626T143302, end_date=20240626T143302
+[2024-06-26T14:33:02.213+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 577 for task get_data ([Errno 2] No such file or directory: '/opt/airflow/data/data.json'; 135)
+[2024-06-26T14:33:02.245+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-26T14:33:02.257+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1297: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-06-26T14:33:02.268+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-26T14:33:02.270+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

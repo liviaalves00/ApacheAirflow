@@ -24,7 +24,7 @@ default_args = {
 dag = DAG(
     "windturbine",
     description="Wind Turbine DAG",
-    schedule_interval="*/3 * * * *",
+    schedule_interval=None,
     start_date=datetime(2024, 6, 24),
     catchup=False,
     default_args=default_args,
@@ -37,6 +37,7 @@ group_check_temp = TaskGroup(group_id="group_check_temp", dag=dag)
 group_database = TaskGroup(group_id="group_database", dag=dag)
 
 
+# to do: otimizar a função para apagar e pegar. novamente o aruivo
 def process_file(**kwarg):
     with open(Variable.get("path_file_json"), "r") as file:
         data = json.load(file)

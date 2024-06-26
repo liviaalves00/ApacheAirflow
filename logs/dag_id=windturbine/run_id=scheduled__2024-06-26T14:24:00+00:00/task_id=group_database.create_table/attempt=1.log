@@ -1,0 +1,42 @@
+[2024-06-26T14:29:55.665+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-26T14:29:55.679+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: windturbine.group_database.create_table scheduled__2024-06-26T14:24:00+00:00 [queued]>
+[2024-06-26T14:29:55.684+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: windturbine.group_database.create_table scheduled__2024-06-26T14:24:00+00:00 [queued]>
+[2024-06-26T14:29:55.684+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-06-26T14:29:55.693+0000] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): group_database.create_table> on 2024-06-26 14:24:00+00:00
+[2024-06-26T14:29:55.698+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=60) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-26T14:29:55.699+0000] {standard_task_runner.py:63} INFO - Started process 63 to run task
+[2024-06-26T14:29:55.699+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'windturbine', 'group_database.create_table', 'scheduled__2024-06-26T14:24:00+00:00', '--job-id', '567', '--raw', '--subdir', 'DAGS_FOLDER/windturbine.py', '--cfg-path', '/tmp/tmph80gf1ku']
+[2024-06-26T14:29:55.700+0000] {standard_task_runner.py:91} INFO - Job 567: Subtask group_database.create_table
+[2024-06-26T14:29:55.725+0000] {task_command.py:426} INFO - Running <TaskInstance: windturbine.group_database.create_table scheduled__2024-06-26T14:24:00+00:00 [running]> on host 98350b7a6ca8
+[2024-06-26T14:29:55.789+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='liviataina.ltab@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='windturbine' AIRFLOW_CTX_TASK_ID='group_database.create_table' AIRFLOW_CTX_EXECUTION_DATE='2024-06-26T14:24:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-26T14:24:00+00:00'
+[2024-06-26T14:29:55.790+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-26T14:29:55.800+0000] {sql.py:276} INFO - Executing: 
+        CREATE TABLE IF NOT EXISTS sensors (
+            idtemp varchar PRIMARY KEY,
+            powerfactor varchar,
+            hydraulicpressure varchar,
+            temperature varchar,
+            timestamp varchar
+        );
+    
+[2024-06-26T14:29:55.805+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2024-06-26T14:29:55.812+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2024-06-26T14:29:55.814+0000] {sql.py:487} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS sensors (
+            idtemp varchar PRIMARY KEY,
+            powerfactor varchar,
+            hydraulicpressure varchar,
+            temperature varchar,
+            timestamp varchar
+        );
+    , parameters: None
+[2024-06-26T14:29:55.815+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-26T14:29:55.821+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=windturbine, task_id=group_database.create_table, run_id=scheduled__2024-06-26T14:24:00+00:00, execution_date=20240626T142400, start_date=20240626T142955, end_date=20240626T142955
+[2024-06-26T14:29:55.871+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-26T14:29:55.877+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1297: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-06-26T14:29:55.885+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-26T14:29:55.887+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
