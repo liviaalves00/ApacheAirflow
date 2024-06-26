@@ -5584,3 +5584,654 @@
 [2024-06-24T12:50:07.835+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:07.835+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-24T12:50:07.842+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:07.842+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
 [2024-06-24T12:50:07.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:50:13.985+0000] {processor.py:161} INFO - Started process (PID=23234) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:13.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:50:13.986+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:13.986+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:13.991+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:14.004+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:14.004+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:14.011+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:14.011+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:50:14.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:50:20.097+0000] {processor.py:161} INFO - Started process (PID=23262) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:20.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:50:20.098+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:20.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:20.103+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:20.116+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:20.116+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:20.123+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:20.123+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:50:20.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:50:26.191+0000] {processor.py:161} INFO - Started process (PID=23290) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:26.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:50:26.192+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:26.192+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:26.196+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:26.210+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:26.210+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:26.217+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:26.217+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:50:26.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:50:32.331+0000] {processor.py:161} INFO - Started process (PID=23318) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:32.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:50:32.333+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:32.332+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:32.337+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:32.350+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:32.350+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:32.358+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:32.357+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:50:32.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:50:38.390+0000] {processor.py:161} INFO - Started process (PID=23355) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:38.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:50:38.392+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:38.392+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:38.397+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:38.412+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:38.411+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:38.419+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:38.419+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:50:38.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.041 seconds
+[2024-06-24T12:50:44.522+0000] {processor.py:161} INFO - Started process (PID=23383) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:44.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:50:44.523+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:44.523+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:44.528+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:44.541+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:44.540+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:44.548+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:44.547+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:50:44.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:50:50.583+0000] {processor.py:161} INFO - Started process (PID=23411) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:50.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:50:50.585+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:50.584+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:50.589+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:50.602+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:50.602+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:50.610+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:50.610+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:50:50.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:50:56.678+0000] {processor.py:161} INFO - Started process (PID=23439) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:56.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:50:56.679+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:56.679+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:56.684+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:50:56.697+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:56.697+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:56.704+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:56.704+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:50:56.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:51:02.775+0000] {processor.py:161} INFO - Started process (PID=23467) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:02.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:02.776+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:02.776+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:02.781+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:02.794+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:02.794+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:02.801+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:02.801+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:02.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:51:08.885+0000] {processor.py:161} INFO - Started process (PID=23501) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:08.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:08.887+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:08.887+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:08.892+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:08.909+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:08.909+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:08.919+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:08.919+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:08.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.051 seconds
+[2024-06-24T12:51:14.955+0000] {processor.py:161} INFO - Started process (PID=23530) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:14.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:14.957+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:14.956+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:14.961+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:14.975+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:14.974+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:14.981+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:14.981+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:14.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:51:21.160+0000] {processor.py:161} INFO - Started process (PID=23560) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:21.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:21.162+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:21.161+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:21.166+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:21.183+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:21.183+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:21.193+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:21.193+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:21.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.047 seconds
+[2024-06-24T12:51:26.416+0000] {processor.py:161} INFO - Started process (PID=23588) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:26.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:26.418+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:26.418+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:26.423+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:26.437+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:26.437+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:26.446+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:26.446+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:26.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.046 seconds
+[2024-06-24T12:51:31.667+0000] {processor.py:161} INFO - Started process (PID=23616) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:31.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:31.669+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:31.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:31.674+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:31.691+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:31.691+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:31.702+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:31.702+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:31.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.051 seconds
+[2024-06-24T12:51:36.963+0000] {processor.py:161} INFO - Started process (PID=23650) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:36.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:36.964+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:36.964+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:36.969+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:36.984+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:36.983+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:36.992+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:36.992+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:37.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.042 seconds
+[2024-06-24T12:51:42.249+0000] {processor.py:161} INFO - Started process (PID=23677) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:42.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:42.250+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:42.250+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:42.255+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:42.269+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:42.269+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:42.277+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:42.276+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:42.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.041 seconds
+[2024-06-24T12:51:47.506+0000] {processor.py:161} INFO - Started process (PID=23706) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:47.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:47.508+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:47.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:47.513+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:47.526+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:47.526+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:47.534+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:47.534+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:47.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:51:53.603+0000] {processor.py:161} INFO - Started process (PID=23734) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:53.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:53.605+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:53.604+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:53.610+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:53.625+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:53.624+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:53.633+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:53.632+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:53.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.044 seconds
+[2024-06-24T12:51:59.820+0000] {processor.py:161} INFO - Started process (PID=23762) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:59.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:51:59.821+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:59.821+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:59.827+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:51:59.842+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:59.842+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:59.850+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:59.850+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:51:59.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.045 seconds
+[2024-06-24T12:52:05.069+0000] {processor.py:161} INFO - Started process (PID=23790) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:05.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:05.070+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:05.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:05.075+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:05.090+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:05.090+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:05.098+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:05.098+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:05.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.045 seconds
+[2024-06-24T12:52:11.252+0000] {processor.py:161} INFO - Started process (PID=23824) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:11.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:11.254+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:11.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:11.259+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:11.273+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:11.273+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:11.280+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:11.280+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:11.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:52:17.431+0000] {processor.py:161} INFO - Started process (PID=23852) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:17.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:17.432+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:17.432+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:17.437+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:17.451+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:17.451+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:17.460+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:17.459+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:17.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:52:22.726+0000] {processor.py:161} INFO - Started process (PID=23880) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:22.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:22.727+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:22.727+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:22.732+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:22.746+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:22.746+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:22.754+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:22.754+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:22.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:52:27.979+0000] {processor.py:161} INFO - Started process (PID=23908) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:27.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:27.980+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:27.980+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:27.986+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:27.999+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:27.999+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:28.007+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:28.007+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:28.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:52:33.274+0000] {processor.py:161} INFO - Started process (PID=23935) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:33.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:33.275+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:33.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:33.280+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:33.295+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:33.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:33.303+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:33.303+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:33.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.044 seconds
+[2024-06-24T12:52:38.570+0000] {processor.py:161} INFO - Started process (PID=23970) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:38.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:38.571+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:38.571+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:38.576+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:38.592+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:38.591+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:38.599+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:38.599+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:38.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.045 seconds
+[2024-06-24T12:52:43.816+0000] {processor.py:161} INFO - Started process (PID=23998) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:43.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:43.818+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:43.818+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:43.823+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:43.836+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:43.836+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:43.844+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:43.844+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:43.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:52:49.217+0000] {processor.py:161} INFO - Started process (PID=24028) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:49.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:49.219+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:49.219+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:49.225+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:49.240+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:49.240+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:49.248+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:49.247+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:49.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.045 seconds
+[2024-06-24T12:52:54.615+0000] {processor.py:161} INFO - Started process (PID=24056) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:54.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:54.616+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:54.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:54.621+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:54.635+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:54.634+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:54.642+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:54.642+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:54.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.042 seconds
+[2024-06-24T12:52:59.770+0000] {processor.py:161} INFO - Started process (PID=24084) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:59.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:52:59.772+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:59.772+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:59.776+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:52:59.790+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:59.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:59.797+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:59.797+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:52:59.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:53:06.024+0000] {processor.py:161} INFO - Started process (PID=24119) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:06.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:53:06.026+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:06.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:06.031+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:06.045+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:06.044+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:06.052+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:06.052+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:53:06.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.042 seconds
+[2024-06-24T12:53:12.172+0000] {processor.py:161} INFO - Started process (PID=24147) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:12.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:53:12.173+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:12.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:12.178+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:12.192+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:12.192+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:12.200+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:12.199+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:53:12.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:53:17.421+0000] {processor.py:161} INFO - Started process (PID=24175) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:17.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:53:17.422+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:17.422+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:17.427+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:17.441+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:17.441+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:17.448+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:17.448+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:53:17.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.042 seconds
+[2024-06-24T12:53:23.587+0000] {processor.py:161} INFO - Started process (PID=24203) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:23.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:53:23.589+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:23.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:23.593+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:23.607+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:23.607+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:23.614+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:23.614+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:53:23.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:53:29.646+0000] {processor.py:161} INFO - Started process (PID=24231) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:29.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:53:29.647+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:29.647+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:29.652+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:29.666+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:29.665+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:29.673+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:29.672+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:53:29.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:53:35.761+0000] {processor.py:161} INFO - Started process (PID=24265) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:35.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:53:35.763+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:35.763+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:35.768+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:35.781+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:35.781+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:35.788+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:35.788+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:53:35.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.041 seconds
+[2024-06-24T12:53:42.000+0000] {processor.py:161} INFO - Started process (PID=24296) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:42.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:53:42.002+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:42.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:42.006+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:42.020+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:42.020+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:42.027+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:42.027+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:53:42.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.042 seconds
+[2024-06-24T12:53:48.042+0000] {processor.py:161} INFO - Started process (PID=24324) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:48.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:53:48.043+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:48.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:48.047+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:48.061+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:48.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:48.068+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:48.068+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:53:48.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:53:54.219+0000] {processor.py:161} INFO - Started process (PID=24352) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:54.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:53:54.221+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:54.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:54.225+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:53:54.239+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:54.238+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:54.246+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:54.245+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:53:54.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:54:00.358+0000] {processor.py:161} INFO - Started process (PID=24380) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:00.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:54:00.359+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:00.359+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:00.364+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:00.377+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:00.377+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:00.384+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:00.384+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:54:00.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:54:06.451+0000] {processor.py:161} INFO - Started process (PID=24414) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:06.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:54:06.452+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:06.452+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:06.456+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:06.470+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:06.470+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:06.477+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:06.477+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:54:06.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:54:12.690+0000] {processor.py:161} INFO - Started process (PID=24445) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:12.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:54:12.692+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:12.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:12.696+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:12.710+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:12.709+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:12.717+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:12.717+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:54:12.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:54:18.747+0000] {processor.py:161} INFO - Started process (PID=24473) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:18.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:54:18.749+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:18.748+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:18.753+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:18.767+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:18.766+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:18.774+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:18.773+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:54:18.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:54:24.845+0000] {processor.py:161} INFO - Started process (PID=24501) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:24.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:54:24.846+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:24.846+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:24.851+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:24.864+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:24.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:24.871+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:24.871+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:54:24.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:54:30.921+0000] {processor.py:161} INFO - Started process (PID=24529) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:30.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:54:30.922+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:30.922+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:30.926+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:30.940+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:30.940+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:30.947+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:30.947+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:54:30.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:54:37.045+0000] {processor.py:161} INFO - Started process (PID=24563) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:37.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:54:37.046+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:37.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:37.051+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:37.065+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:37.065+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:37.072+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:37.072+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:54:37.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:54:43.282+0000] {processor.py:161} INFO - Started process (PID=24594) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:43.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:54:43.284+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:43.283+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:43.289+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:43.302+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:43.302+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:43.310+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:43.309+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:54:43.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:54:49.379+0000] {processor.py:161} INFO - Started process (PID=24622) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:49.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:54:49.380+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:49.380+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:49.384+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:49.398+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:49.398+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:49.405+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:49.405+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:54:49.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:54:55.329+0000] {processor.py:161} INFO - Started process (PID=24650) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:55.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:54:55.331+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:55.331+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:55.336+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:54:55.348+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:55.348+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:55.355+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:55.355+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:54:55.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:55:01.425+0000] {processor.py:161} INFO - Started process (PID=24678) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:01.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:55:01.426+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:01.426+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:01.431+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:01.444+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:01.444+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:01.452+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:01.451+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:55:01.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:55:07.517+0000] {processor.py:161} INFO - Started process (PID=24712) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:07.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:55:07.518+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:07.518+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:07.523+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:07.538+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:07.538+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:07.547+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:07.546+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:55:07.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:55:13.645+0000] {processor.py:161} INFO - Started process (PID=24740) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:13.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:55:13.647+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:13.647+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:13.651+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:13.667+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:13.667+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:13.678+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:13.677+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:55:13.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.049 seconds
+[2024-06-24T12:55:19.887+0000] {processor.py:161} INFO - Started process (PID=24771) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:19.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:55:19.889+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:19.889+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:19.893+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:19.907+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:19.907+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:19.914+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:19.914+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:55:19.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:55:26.067+0000] {processor.py:161} INFO - Started process (PID=24799) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:26.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:55:26.069+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:26.068+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:26.073+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:26.086+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:26.086+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:26.093+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:26.093+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:55:26.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:55:32.156+0000] {processor.py:161} INFO - Started process (PID=24827) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:32.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:55:32.158+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:32.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:32.162+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:32.175+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:32.175+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:32.183+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:32.182+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:55:32.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:55:38.101+0000] {processor.py:161} INFO - Started process (PID=24861) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:38.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:55:38.102+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:38.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:38.107+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:38.119+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:38.119+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:38.126+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:38.126+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:55:38.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.037 seconds
+[2024-06-24T12:55:44.210+0000] {processor.py:161} INFO - Started process (PID=24889) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:44.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:55:44.212+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:44.212+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:44.216+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:44.230+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:44.229+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:44.237+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:44.236+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:55:44.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:55:50.320+0000] {processor.py:161} INFO - Started process (PID=24917) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:50.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:55:50.321+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:50.321+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:50.326+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:50.339+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:50.339+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:50.346+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:50.346+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:55:50.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.041 seconds
+[2024-06-24T12:55:56.558+0000] {processor.py:161} INFO - Started process (PID=24947) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:56.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:55:56.560+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:56.559+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:56.564+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:55:56.577+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:56.577+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:56.584+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:56.584+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:55:56.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:56:02.456+0000] {processor.py:161} INFO - Started process (PID=24976) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:02.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:56:02.458+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:02.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:02.463+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:02.476+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:02.476+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:02.483+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:02.483+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:56:02.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:56:08.331+0000] {processor.py:161} INFO - Started process (PID=25010) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:08.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:56:08.332+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:08.332+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:08.337+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:08.349+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:08.349+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:08.356+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:08.356+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:56:08.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:56:14.216+0000] {processor.py:161} INFO - Started process (PID=25038) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:14.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:56:14.217+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:14.217+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:14.222+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:14.234+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:14.234+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:14.241+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:14.240+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:56:14.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:56:20.104+0000] {processor.py:161} INFO - Started process (PID=25066) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:20.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:56:20.105+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:20.105+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:20.110+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:20.122+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:20.122+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:20.129+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:20.129+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:56:20.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:56:25.990+0000] {processor.py:161} INFO - Started process (PID=25094) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:25.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:56:25.991+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:25.991+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:25.996+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:26.008+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:26.008+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:26.015+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:26.015+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:56:26.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:56:31.888+0000] {processor.py:161} INFO - Started process (PID=25122) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:31.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:56:31.890+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:31.890+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:31.894+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:31.906+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:31.906+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:31.913+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:31.913+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:56:31.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:56:37.835+0000] {processor.py:161} INFO - Started process (PID=25156) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:37.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:56:37.836+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:37.836+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:37.841+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:37.854+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:37.854+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:37.861+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:37.861+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:56:37.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:56:43.745+0000] {processor.py:161} INFO - Started process (PID=25184) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:43.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:56:43.747+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:43.746+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:43.751+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:43.764+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:43.764+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:43.771+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:43.771+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:56:43.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:56:49.628+0000] {processor.py:161} INFO - Started process (PID=25212) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:49.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:56:49.629+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:49.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:49.634+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:49.646+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:49.646+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:49.653+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:49.653+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:56:49.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:56:55.546+0000] {processor.py:161} INFO - Started process (PID=25240) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:55.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:56:55.547+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:55.547+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:55.552+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:56:55.564+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:55.564+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:55.571+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:55.571+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:56:55.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:57:01.458+0000] {processor.py:161} INFO - Started process (PID=25268) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:01.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:57:01.460+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:01.460+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:01.464+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:01.477+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:01.477+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:01.484+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:01.484+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:57:01.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:57:07.336+0000] {processor.py:161} INFO - Started process (PID=25302) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:07.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:57:07.337+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:07.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:07.342+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:07.354+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:07.354+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:07.361+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:07.361+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:57:07.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:57:13.258+0000] {processor.py:161} INFO - Started process (PID=25330) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:13.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:57:13.259+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:13.259+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:13.264+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:13.277+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:13.277+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:13.284+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:13.284+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:57:13.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:57:19.193+0000] {processor.py:161} INFO - Started process (PID=25358) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:19.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:57:19.194+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:19.194+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:19.199+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:19.211+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:19.211+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:19.218+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:19.218+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:57:19.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:57:25.110+0000] {processor.py:161} INFO - Started process (PID=25386) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:25.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:57:25.111+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:25.111+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:25.116+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:25.128+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:25.128+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:25.135+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:25.135+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:57:25.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:57:31.007+0000] {processor.py:161} INFO - Started process (PID=25414) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:31.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:57:31.008+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:31.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:31.013+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:31.026+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:31.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:31.032+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:31.032+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:57:31.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:57:36.897+0000] {processor.py:161} INFO - Started process (PID=25448) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:36.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:57:36.899+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:36.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:36.904+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:36.916+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:36.916+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:36.923+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:36.923+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:57:36.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:57:42.799+0000] {processor.py:161} INFO - Started process (PID=25476) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:42.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:57:42.800+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:42.800+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:42.805+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:42.817+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:42.817+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:42.824+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:42.824+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:57:42.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:57:48.699+0000] {processor.py:161} INFO - Started process (PID=25504) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:48.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:57:48.700+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:48.700+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:48.705+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:48.718+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:48.718+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:48.725+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:48.724+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:57:48.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:57:54.577+0000] {processor.py:161} INFO - Started process (PID=25532) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:54.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:57:54.579+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:54.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:54.583+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:57:54.595+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:54.595+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:54.602+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:54.602+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:57:54.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.038 seconds
+[2024-06-24T12:58:00.484+0000] {processor.py:161} INFO - Started process (PID=25560) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:00.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:58:00.485+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:00.485+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:00.491+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:00.503+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:00.503+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:00.510+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:00.510+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:58:00.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:58:06.433+0000] {processor.py:161} INFO - Started process (PID=25594) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:06.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:58:06.435+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:06.434+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:06.439+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:06.452+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:06.452+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:06.459+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:06.459+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:58:06.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:58:12.408+0000] {processor.py:161} INFO - Started process (PID=25622) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:12.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:58:12.409+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:12.409+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:12.414+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:12.428+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:12.428+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:12.435+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:12.435+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:58:12.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.042 seconds
+[2024-06-24T12:58:18.357+0000] {processor.py:161} INFO - Started process (PID=25650) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:18.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:58:18.358+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:18.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:18.362+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:18.376+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:18.376+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:18.383+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:18.383+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:58:18.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.039 seconds
+[2024-06-24T12:58:24.363+0000] {processor.py:161} INFO - Started process (PID=25678) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:24.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:58:24.364+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:24.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:24.369+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:24.383+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:24.383+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:24.390+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:24.390+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:58:24.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.041 seconds
+[2024-06-24T12:58:30.296+0000] {processor.py:161} INFO - Started process (PID=25706) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:30.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:58:30.297+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:30.297+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:30.302+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:30.315+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:30.315+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:30.323+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:30.322+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:58:30.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.040 seconds
+[2024-06-24T12:58:36.323+0000] {processor.py:161} INFO - Started process (PID=25740) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:36.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:58:36.325+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:36.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:36.330+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:36.343+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:36.343+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:36.351+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:36.350+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:58:36.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.041 seconds
+[2024-06-24T12:58:42.270+0000] {processor.py:161} INFO - Started process (PID=25768) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:42.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:58:42.272+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:42.272+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:42.276+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:42.290+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:42.290+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:42.297+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:42.297+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:58:42.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.041 seconds
+[2024-06-24T12:58:48.231+0000] {processor.py:161} INFO - Started process (PID=25796) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:48.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:58:48.233+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:48.233+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:48.238+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:48.252+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:48.251+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:48.260+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:48.260+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:58:48.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.043 seconds
+[2024-06-24T12:58:54.222+0000] {processor.py:161} INFO - Started process (PID=25824) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:54.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:58:54.223+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:54.223+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:54.228+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:58:54.241+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:54.241+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:54.249+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:54.249+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:58:54.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.041 seconds
+[2024-06-24T12:59:00.170+0000] {processor.py:161} INFO - Started process (PID=25852) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:00.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:59:00.171+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:00.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:00.176+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:00.190+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:00.190+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:59:00.198+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:00.198+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:59:00.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.042 seconds
+[2024-06-24T12:59:06.137+0000] {processor.py:161} INFO - Started process (PID=25880) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:06.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:59:06.138+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:06.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:06.144+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:06.158+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:06.158+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:59:06.165+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:06.165+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:59:06.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.042 seconds
+[2024-06-24T12:59:12.169+0000] {processor.py:161} INFO - Started process (PID=25914) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:12.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:59:12.171+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:12.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:12.176+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:12.190+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:12.190+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:59:12.197+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:12.197+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:59:12.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.042 seconds
+[2024-06-24T12:59:18.162+0000] {processor.py:161} INFO - Started process (PID=25942) to work on /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:18.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pooltest.py for tasks to queue
+[2024-06-24T12:59:18.163+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:18.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:18.168+0000] {processor.py:840} INFO - DAG(s) 'pool' retrieved from /opt/airflow/dags/pooltest.py
+[2024-06-24T12:59:18.181+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:18.181+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:59:18.189+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:18.189+0000] {dag.py:3954} INFO - Setting next_dagrun for pool to None, run_after=None
+[2024-06-24T12:59:18.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pooltest.py took 0.041 seconds

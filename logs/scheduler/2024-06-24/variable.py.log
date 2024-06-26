@@ -5584,3 +5584,654 @@
 [2024-06-24T12:50:07.884+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:07.883+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-24T12:50:07.891+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:07.890+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
 [2024-06-24T12:50:07.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:50:14.034+0000] {processor.py:161} INFO - Started process (PID=23235) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:50:14.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:50:14.036+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:14.036+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:14.042+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:14.053+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:14.053+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:14.060+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:14.060+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:50:14.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:50:20.145+0000] {processor.py:161} INFO - Started process (PID=23263) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:50:20.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:50:20.146+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:20.146+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:20.152+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:20.163+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:20.163+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:20.170+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:20.170+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:50:20.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.037 seconds
+[2024-06-24T12:50:26.239+0000] {processor.py:161} INFO - Started process (PID=23291) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:50:26.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:50:26.241+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:26.241+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:26.246+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:26.258+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:26.258+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:26.265+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:26.264+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:50:26.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:50:32.381+0000] {processor.py:161} INFO - Started process (PID=23319) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:50:32.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:50:32.382+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:32.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:32.388+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:32.400+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:32.399+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:32.406+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:32.406+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:50:32.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:50:38.441+0000] {processor.py:161} INFO - Started process (PID=23356) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:50:38.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:50:38.443+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:38.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:38.448+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:38.461+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:38.461+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:38.468+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:38.467+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:50:38.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:50:44.570+0000] {processor.py:161} INFO - Started process (PID=23384) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:50:44.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:50:44.572+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:44.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:44.578+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:44.590+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:44.589+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:44.597+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:44.597+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:50:44.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:50:50.633+0000] {processor.py:161} INFO - Started process (PID=23412) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:50:50.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:50:50.634+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:50.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:50.640+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:50.652+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:50.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:50.660+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:50.660+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:50:50.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.041 seconds
+[2024-06-24T12:50:56.727+0000] {processor.py:161} INFO - Started process (PID=23440) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:50:56.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:50:56.728+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:56.728+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:56.734+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:50:56.746+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:56.746+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:50:56.753+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:50:56.752+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:50:56.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:51:02.824+0000] {processor.py:161} INFO - Started process (PID=23468) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:02.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:02.825+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:02.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:02.831+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:02.844+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:02.843+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:02.851+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:02.851+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:02.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:51:08.949+0000] {processor.py:161} INFO - Started process (PID=23502) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:08.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:08.950+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:08.950+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:08.956+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:08.970+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:08.969+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:08.977+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:08.977+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:08.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.043 seconds
+[2024-06-24T12:51:15.004+0000] {processor.py:161} INFO - Started process (PID=23531) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:15.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:15.006+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:15.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:15.012+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:15.024+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:15.024+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:15.031+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:15.031+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:15.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:51:21.218+0000] {processor.py:161} INFO - Started process (PID=23561) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:21.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:21.219+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:21.219+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:21.226+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:21.238+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:21.238+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:21.246+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:21.246+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:21.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.042 seconds
+[2024-06-24T12:51:26.471+0000] {processor.py:161} INFO - Started process (PID=23589) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:26.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:26.473+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:26.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:26.479+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:26.492+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:26.491+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:26.500+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:26.500+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:26.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.042 seconds
+[2024-06-24T12:51:31.730+0000] {processor.py:161} INFO - Started process (PID=23617) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:31.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:31.732+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:31.732+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:31.738+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:31.752+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:31.752+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:31.759+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:31.759+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:31.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.044 seconds
+[2024-06-24T12:51:37.016+0000] {processor.py:161} INFO - Started process (PID=23651) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:37.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:37.017+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:37.017+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:37.024+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:37.036+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:37.036+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:37.044+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:37.044+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:37.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.041 seconds
+[2024-06-24T12:51:42.303+0000] {processor.py:161} INFO - Started process (PID=23679) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:42.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:42.305+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:42.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:42.311+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:42.324+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:42.324+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:42.332+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:42.332+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:42.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.043 seconds
+[2024-06-24T12:51:47.541+0000] {processor.py:161} INFO - Started process (PID=23707) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:47.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:47.543+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:47.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:47.550+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:47.563+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:47.563+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:47.570+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:47.570+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:47.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.044 seconds
+[2024-06-24T12:51:53.657+0000] {processor.py:161} INFO - Started process (PID=23735) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:53.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:53.658+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:53.658+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:53.664+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:53.677+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:53.677+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:53.685+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:53.685+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:53.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.041 seconds
+[2024-06-24T12:51:59.876+0000] {processor.py:161} INFO - Started process (PID=23763) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:51:59.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:51:59.878+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:59.877+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:59.884+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:51:59.898+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:59.898+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:51:59.905+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:51:59.905+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:51:59.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.045 seconds
+[2024-06-24T12:52:05.122+0000] {processor.py:161} INFO - Started process (PID=23797) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:05.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:05.124+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:05.124+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:05.130+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:05.142+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:05.142+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:05.151+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:05.151+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:05.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.044 seconds
+[2024-06-24T12:52:11.303+0000] {processor.py:161} INFO - Started process (PID=23825) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:11.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:11.305+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:11.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:11.311+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:11.323+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:11.323+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:11.330+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:11.330+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:11.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:52:17.485+0000] {processor.py:161} INFO - Started process (PID=23853) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:17.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:17.486+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:17.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:17.493+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:17.505+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:17.505+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:17.513+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:17.512+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:17.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.041 seconds
+[2024-06-24T12:52:22.779+0000] {processor.py:161} INFO - Started process (PID=23881) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:22.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:22.781+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:22.781+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:22.787+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:22.800+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:22.800+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:22.808+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:22.807+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:22.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.043 seconds
+[2024-06-24T12:52:28.031+0000] {processor.py:161} INFO - Started process (PID=23909) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:28.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:28.033+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:28.032+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:28.039+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:28.052+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:28.052+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:28.060+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:28.060+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:28.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.042 seconds
+[2024-06-24T12:52:33.332+0000] {processor.py:161} INFO - Started process (PID=23937) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:33.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:33.334+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:33.333+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:33.340+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:33.353+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:33.353+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:33.361+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:33.361+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:33.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.046 seconds
+[2024-06-24T12:52:38.625+0000] {processor.py:161} INFO - Started process (PID=23971) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:38.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:38.627+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:38.627+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:38.633+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:38.647+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:38.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:38.655+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:38.655+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:38.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.043 seconds
+[2024-06-24T12:52:43.868+0000] {processor.py:161} INFO - Started process (PID=23999) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:43.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:43.869+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:43.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:43.875+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:43.887+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:43.887+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:43.894+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:43.894+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:43.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.041 seconds
+[2024-06-24T12:52:49.221+0000] {processor.py:161} INFO - Started process (PID=24029) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:49.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:49.222+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:49.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:49.230+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:49.243+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:49.243+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:49.251+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:49.250+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:49.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.044 seconds
+[2024-06-24T12:52:54.666+0000] {processor.py:161} INFO - Started process (PID=24057) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:54.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:54.667+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:54.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:54.673+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:54.686+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:54.685+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:54.693+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:54.693+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:54.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:52:59.876+0000] {processor.py:161} INFO - Started process (PID=24086) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:52:59.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:52:59.877+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:59.877+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:59.884+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:52:59.896+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:59.896+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:52:59.904+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:52:59.904+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:52:59.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.041 seconds
+[2024-06-24T12:53:06.077+0000] {processor.py:161} INFO - Started process (PID=24120) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:53:06.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:53:06.079+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:06.079+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:06.085+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:06.098+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:06.097+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:06.105+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:06.105+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:53:06.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.042 seconds
+[2024-06-24T12:53:12.224+0000] {processor.py:161} INFO - Started process (PID=24148) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:53:12.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:53:12.226+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:12.226+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:12.233+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:12.245+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:12.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:12.252+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:12.252+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:53:12.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.042 seconds
+[2024-06-24T12:53:17.473+0000] {processor.py:161} INFO - Started process (PID=24176) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:53:17.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:53:17.474+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:17.474+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:17.480+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:17.493+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:17.493+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:17.500+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:17.500+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:53:17.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:53:23.637+0000] {processor.py:161} INFO - Started process (PID=24204) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:53:23.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:53:23.638+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:23.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:23.644+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:23.656+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:23.656+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:23.663+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:23.663+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:53:23.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:53:29.696+0000] {processor.py:161} INFO - Started process (PID=24232) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:53:29.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:53:29.697+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:29.697+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:29.703+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:29.714+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:29.714+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:29.721+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:29.721+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:53:29.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:53:35.811+0000] {processor.py:161} INFO - Started process (PID=24266) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:53:35.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:53:35.812+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:35.812+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:35.818+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:35.829+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:35.829+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:35.835+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:35.835+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:53:35.845+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.037 seconds
+[2024-06-24T12:53:42.050+0000] {processor.py:161} INFO - Started process (PID=24297) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:53:42.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:53:42.051+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:42.051+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:42.058+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:42.072+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:42.072+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:42.079+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:42.079+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:53:42.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.042 seconds
+[2024-06-24T12:53:48.090+0000] {processor.py:161} INFO - Started process (PID=24325) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:53:48.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:53:48.091+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:48.091+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:48.097+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:48.109+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:48.108+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:48.115+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:48.115+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:53:48.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.037 seconds
+[2024-06-24T12:53:54.268+0000] {processor.py:161} INFO - Started process (PID=24353) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:53:54.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:53:54.270+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:54.270+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:54.276+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:53:54.287+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:54.287+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:53:54.294+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:53:54.294+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:53:54.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:54:00.407+0000] {processor.py:161} INFO - Started process (PID=24381) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:54:00.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:54:00.408+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:00.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:00.414+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:00.426+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:00.426+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:00.433+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:00.433+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:54:00.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:54:06.500+0000] {processor.py:161} INFO - Started process (PID=24415) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:54:06.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:54:06.501+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:06.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:06.507+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:06.519+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:06.519+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:06.526+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:06.525+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:54:06.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:54:12.740+0000] {processor.py:161} INFO - Started process (PID=24446) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:54:12.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:54:12.741+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:12.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:12.747+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:12.760+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:12.759+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:12.766+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:12.766+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:54:12.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:54:18.796+0000] {processor.py:161} INFO - Started process (PID=24474) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:54:18.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:54:18.797+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:18.797+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:18.803+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:18.815+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:18.815+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:18.821+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:18.821+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:54:18.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.037 seconds
+[2024-06-24T12:54:24.893+0000] {processor.py:161} INFO - Started process (PID=24502) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:54:24.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:54:24.895+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:24.895+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:24.901+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:24.912+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:24.912+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:24.919+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:24.919+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:54:24.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:54:30.970+0000] {processor.py:161} INFO - Started process (PID=24530) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:54:30.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:54:30.971+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:30.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:30.977+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:30.988+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:30.988+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:30.995+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:30.995+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:54:31.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.037 seconds
+[2024-06-24T12:54:37.095+0000] {processor.py:161} INFO - Started process (PID=24564) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:54:37.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:54:37.096+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:37.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:37.102+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:37.113+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:37.113+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:37.120+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:37.120+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:54:37.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.037 seconds
+[2024-06-24T12:54:43.333+0000] {processor.py:161} INFO - Started process (PID=24595) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:54:43.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:54:43.335+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:43.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:43.341+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:43.352+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:43.351+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:43.358+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:43.358+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:54:43.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.037 seconds
+[2024-06-24T12:54:49.428+0000] {processor.py:161} INFO - Started process (PID=24623) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:54:49.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:54:49.429+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:49.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:49.435+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:49.447+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:49.447+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:49.454+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:49.454+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:54:49.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:54:55.377+0000] {processor.py:161} INFO - Started process (PID=24651) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:54:55.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:54:55.379+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:55.379+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:55.385+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:54:55.396+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:55.396+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:54:55.404+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:54:55.403+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:54:55.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:55:01.475+0000] {processor.py:161} INFO - Started process (PID=24679) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:55:01.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:55:01.476+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:01.476+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:01.482+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:01.494+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:01.494+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:01.501+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:01.500+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:55:01.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:55:07.568+0000] {processor.py:161} INFO - Started process (PID=24713) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:55:07.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:55:07.569+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:07.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:07.575+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:07.587+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:07.587+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:07.594+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:07.594+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:55:07.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:55:13.704+0000] {processor.py:161} INFO - Started process (PID=24741) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:55:13.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:55:13.706+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:13.706+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:13.712+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:13.724+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:13.724+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:13.731+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:13.730+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:55:13.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:55:19.938+0000] {processor.py:161} INFO - Started process (PID=24772) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:55:19.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:55:19.939+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:19.939+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:19.945+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:19.957+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:19.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:19.965+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:19.964+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:55:19.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:55:26.115+0000] {processor.py:161} INFO - Started process (PID=24800) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:55:26.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:55:26.117+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:26.116+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:26.122+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:26.134+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:26.134+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:26.140+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:26.140+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:55:26.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:55:32.205+0000] {processor.py:161} INFO - Started process (PID=24828) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:55:32.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:55:32.206+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:32.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:32.212+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:32.223+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:32.223+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:32.230+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:32.230+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:55:32.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.037 seconds
+[2024-06-24T12:55:38.148+0000] {processor.py:161} INFO - Started process (PID=24862) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:55:38.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:55:38.150+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:38.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:38.155+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:38.167+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:38.167+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:38.174+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:38.173+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:55:38.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:55:44.260+0000] {processor.py:161} INFO - Started process (PID=24890) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:55:44.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:55:44.261+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:44.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:44.268+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:44.279+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:44.279+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:44.286+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:44.286+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:55:44.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:55:50.369+0000] {processor.py:161} INFO - Started process (PID=24918) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:55:50.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:55:50.371+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:50.371+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:50.376+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:50.388+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:50.388+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:50.395+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:50.395+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:55:50.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:55:56.597+0000] {processor.py:161} INFO - Started process (PID=24948) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:55:56.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:55:56.599+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:56.599+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:56.605+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:55:56.617+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:56.617+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:55:56.624+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:55:56.624+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:55:56.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:56:02.506+0000] {processor.py:161} INFO - Started process (PID=24977) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:56:02.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:56:02.507+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:02.507+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:02.513+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:02.525+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:02.525+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:02.532+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:02.532+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:56:02.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:56:08.380+0000] {processor.py:161} INFO - Started process (PID=25011) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:56:08.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:56:08.381+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:08.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:08.386+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:08.398+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:08.398+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:08.405+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:08.405+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:56:08.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:56:14.263+0000] {processor.py:161} INFO - Started process (PID=25039) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:56:14.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:56:14.264+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:14.264+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:14.270+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:14.282+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:14.281+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:14.288+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:14.288+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:56:14.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:56:20.151+0000] {processor.py:161} INFO - Started process (PID=25067) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:56:20.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:56:20.153+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:20.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:20.158+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:20.170+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:20.170+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:20.177+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:20.177+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:56:20.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:56:26.038+0000] {processor.py:161} INFO - Started process (PID=25095) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:56:26.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:56:26.039+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:26.039+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:26.044+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:26.056+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:26.056+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:26.063+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:26.063+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:56:26.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:56:31.937+0000] {processor.py:161} INFO - Started process (PID=25123) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:56:31.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:56:31.938+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:31.938+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:31.944+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:31.955+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:31.955+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:31.963+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:31.963+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:56:31.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:56:37.883+0000] {processor.py:161} INFO - Started process (PID=25157) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:56:37.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:56:37.885+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:37.884+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:37.891+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:37.903+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:37.903+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:37.911+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:37.910+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:56:37.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:56:43.794+0000] {processor.py:161} INFO - Started process (PID=25185) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:56:43.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:56:43.795+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:43.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:43.801+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:43.813+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:43.813+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:43.820+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:43.820+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:56:43.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:56:49.676+0000] {processor.py:161} INFO - Started process (PID=25213) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:56:49.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:56:49.677+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:49.677+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:49.683+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:49.694+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:49.694+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:49.701+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:49.701+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:56:49.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:56:55.593+0000] {processor.py:161} INFO - Started process (PID=25241) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:56:55.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:56:55.595+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:55.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:55.600+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:56:55.612+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:55.612+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:56:55.618+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:56:55.618+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:56:55.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:57:01.505+0000] {processor.py:161} INFO - Started process (PID=25269) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:57:01.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:57:01.507+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:01.507+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:01.513+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:01.524+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:01.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:01.531+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:01.531+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:57:01.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:57:07.384+0000] {processor.py:161} INFO - Started process (PID=25303) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:57:07.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:57:07.385+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:07.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:07.391+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:07.403+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:07.403+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:07.410+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:07.409+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:57:07.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:57:13.307+0000] {processor.py:161} INFO - Started process (PID=25331) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:57:13.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:57:13.308+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:13.308+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:13.314+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:13.326+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:13.326+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:13.333+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:13.333+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:57:13.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.041 seconds
+[2024-06-24T12:57:19.241+0000] {processor.py:161} INFO - Started process (PID=25359) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:57:19.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:57:19.242+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:19.242+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:19.248+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:19.260+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:19.260+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:19.268+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:19.268+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:57:19.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:57:25.157+0000] {processor.py:161} INFO - Started process (PID=25387) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:57:25.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:57:25.159+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:25.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:25.164+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:25.176+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:25.176+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:25.183+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:25.183+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:57:25.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:57:31.055+0000] {processor.py:161} INFO - Started process (PID=25415) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:57:31.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:57:31.056+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:31.056+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:31.062+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:31.074+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:31.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:31.081+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:31.081+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:57:31.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.039 seconds
+[2024-06-24T12:57:36.945+0000] {processor.py:161} INFO - Started process (PID=25449) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:57:36.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:57:36.946+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:36.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:36.952+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:36.964+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:36.963+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:36.970+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:36.970+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:57:36.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:57:42.846+0000] {processor.py:161} INFO - Started process (PID=25477) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:57:42.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:57:42.847+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:42.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:42.853+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:42.864+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:42.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:42.871+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:42.871+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:57:42.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:57:48.747+0000] {processor.py:161} INFO - Started process (PID=25505) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:57:48.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:57:48.749+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:48.748+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:48.754+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:48.766+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:48.766+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:48.773+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:48.773+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:57:48.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:57:54.625+0000] {processor.py:161} INFO - Started process (PID=25533) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:57:54.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:57:54.626+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:54.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:54.632+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:57:54.643+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:54.643+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:57:54.650+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:57:54.650+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:57:54.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.038 seconds
+[2024-06-24T12:58:00.533+0000] {processor.py:161} INFO - Started process (PID=25561) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:58:00.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:58:00.535+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:00.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:00.540+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:00.552+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:00.552+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:00.559+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:00.559+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:58:00.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:58:06.481+0000] {processor.py:161} INFO - Started process (PID=25595) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:58:06.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:58:06.483+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:06.483+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:06.489+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:06.501+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:06.500+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:06.508+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:06.508+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:58:06.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:58:12.460+0000] {processor.py:161} INFO - Started process (PID=25623) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:58:12.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:58:12.462+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:12.461+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:12.468+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:12.482+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:12.481+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:12.490+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:12.489+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:58:12.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.044 seconds
+[2024-06-24T12:58:18.406+0000] {processor.py:161} INFO - Started process (PID=25651) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:58:18.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:58:18.407+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:18.407+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:18.413+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:18.425+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:18.425+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:18.432+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:18.432+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:58:18.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:58:24.415+0000] {processor.py:161} INFO - Started process (PID=25679) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:58:24.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:58:24.416+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:24.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:24.422+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:24.436+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:24.435+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:24.443+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:24.443+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:58:24.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.043 seconds
+[2024-06-24T12:58:30.346+0000] {processor.py:161} INFO - Started process (PID=25707) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:58:30.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:58:30.347+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:30.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:30.353+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:30.366+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:30.366+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:30.373+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:30.373+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:58:30.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds
+[2024-06-24T12:58:36.374+0000] {processor.py:161} INFO - Started process (PID=25741) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:58:36.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:58:36.376+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:36.376+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:36.382+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:36.394+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:36.394+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:36.402+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:36.402+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:58:36.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.042 seconds
+[2024-06-24T12:58:42.321+0000] {processor.py:161} INFO - Started process (PID=25769) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:58:42.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:58:42.322+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:42.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:42.328+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:42.341+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:42.341+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:42.348+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:42.348+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:58:42.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.042 seconds
+[2024-06-24T12:58:48.285+0000] {processor.py:161} INFO - Started process (PID=25797) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:58:48.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:58:48.287+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:48.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:48.293+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:48.306+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:48.306+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:48.315+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:48.315+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:58:48.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.044 seconds
+[2024-06-24T12:58:54.274+0000] {processor.py:161} INFO - Started process (PID=25825) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:58:54.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:58:54.275+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:54.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:54.281+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:58:54.293+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:54.293+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:58:54.301+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:58:54.301+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:58:54.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.042 seconds
+[2024-06-24T12:59:00.223+0000] {processor.py:161} INFO - Started process (PID=25853) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:59:00.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:59:00.224+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:00.224+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:59:00.230+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:59:00.244+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:00.243+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:59:00.251+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:00.251+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:59:00.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.042 seconds
+[2024-06-24T12:59:06.190+0000] {processor.py:161} INFO - Started process (PID=25881) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:59:06.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:59:06.191+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:06.191+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:59:06.197+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:59:06.210+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:06.210+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:59:06.218+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:06.218+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:59:06.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.046 seconds
+[2024-06-24T12:59:12.221+0000] {processor.py:161} INFO - Started process (PID=25915) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:59:12.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:59:12.222+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:12.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:59:12.228+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:59:12.241+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:12.241+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:59:12.249+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:12.248+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:59:12.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.041 seconds
+[2024-06-24T12:59:18.213+0000] {processor.py:161} INFO - Started process (PID=25943) to work on /opt/airflow/dags/variable.py
+[2024-06-24T12:59:18.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/variable.py for tasks to queue
+[2024-06-24T12:59:18.214+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:18.214+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/variable.py
+[2024-06-24T12:59:18.221+0000] {processor.py:840} INFO - DAG(s) 'variable' retrieved from /opt/airflow/dags/variable.py
+[2024-06-24T12:59:18.233+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:18.233+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-24T12:59:18.241+0000] {logging_mixin.py:188} INFO - [2024-06-24T12:59:18.240+0000] {dag.py:3954} INFO - Setting next_dagrun for variable to None, run_after=None
+[2024-06-24T12:59:18.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/variable.py took 0.040 seconds

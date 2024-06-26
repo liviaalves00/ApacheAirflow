@@ -1,0 +1,58 @@
+[2024-06-25T12:39:47.389+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-25T12:39:47.401+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: windturbine.group_database.insert_data manual__2024-06-25T12:39:31.386905+00:00 [queued]>
+[2024-06-25T12:39:47.406+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: windturbine.group_database.insert_data manual__2024-06-25T12:39:31.386905+00:00 [queued]>
+[2024-06-25T12:39:47.406+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-06-25T12:39:47.413+0000] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): group_database.insert_data> on 2024-06-25 12:39:31.386905+00:00
+[2024-06-25T12:39:47.418+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1010) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-25T12:39:47.419+0000] {standard_task_runner.py:63} INFO - Started process 1012 to run task
+[2024-06-25T12:39:47.419+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'windturbine', 'group_database.insert_data', 'manual__2024-06-25T12:39:31.386905+00:00', '--job-id', '480', '--raw', '--subdir', 'DAGS_FOLDER/windturbine.py', '--cfg-path', '/tmp/tmpydj09oz2']
+[2024-06-25T12:39:47.420+0000] {standard_task_runner.py:91} INFO - Job 480: Subtask group_database.insert_data
+[2024-06-25T12:39:47.444+0000] {task_command.py:426} INFO - Running <TaskInstance: windturbine.group_database.insert_data manual__2024-06-25T12:39:31.386905+00:00 [running]> on host 8f35bebe2893
+[2024-06-25T12:39:47.523+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='liviataina.ltab@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='windturbine' AIRFLOW_CTX_TASK_ID='group_database.insert_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-25T12:39:31.386905+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-25T12:39:31.386905+00:00'
+[2024-06-25T12:39:47.523+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-25T12:39:47.531+0000] {sql.py:276} INFO - Executing: 
+        INSERT INTO sensors (idtemp, powerfactor, hydraulicpressure, temperature, timestamp)
+        VALUES (%s, %s, %s, %s, %s);
+    
+[2024-06-25T12:39:47.535+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2024-06-25T12:39:47.540+0000] {base.py:84} INFO - Using connection ID 'postgres' for task execution.
+[2024-06-25T12:39:47.542+0000] {sql.py:487} INFO - Running statement: 
+        INSERT INTO sensors (idtemp, powerfactor, hydraulicpressure, temperature, timestamp)
+        VALUES (%s, %s, %s, %s, %s);
+    , parameters: ('1', '0.8837929080361997', '78.86011124702158', '20.279809506572597', '2023-03-19 17:26:55.230351')
+[2024-06-25T12:39:47.542+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-25T12:39:47.542+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 435, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 490, in _run_command
+    cur.execute(sql_statement, parameters)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "sensors_pkey"
+DETAIL:  Key (idtemp)=(1) already exists.
+
+[2024-06-25T12:39:47.547+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=windturbine, task_id=group_database.insert_data, run_id=manual__2024-06-25T12:39:31.386905+00:00, execution_date=20240625T123931, start_date=20240625T123947, end_date=20240625T123947
+[2024-06-25T12:39:47.553+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/utils/email.py:154: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2024-06-25T12:39:47.553+0000] {email.py:271} INFO - Email alerting: attempt 1
+[2024-06-25T12:39:51.033+0000] {email.py:282} INFO - Sent an alert email to ['liviataina.ltab@gmail.com']
+[2024-06-25T12:39:53.459+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 480 for task group_database.insert_data (duplicate key value violates unique constraint "sensors_pkey"
+DETAIL:  Key (idtemp)=(1) already exists.
+; 1012)
+[2024-06-25T12:39:53.499+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-25T12:39:53.527+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-25T12:39:53.530+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
