@@ -1,0 +1,41 @@
+[2024-06-26T14:13:56.818+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-26T14:13:56.844+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: windturbine.file_sensor_task scheduled__2024-06-25T13:09:00+00:00 [queued]>
+[2024-06-26T14:13:56.856+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: windturbine.file_sensor_task scheduled__2024-06-25T13:09:00+00:00 [queued]>
+[2024-06-26T14:13:56.856+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-06-26T14:13:56.870+0000] {taskinstance.py:2330} INFO - Executing <Task(FileSensor): file_sensor_task> on 2024-06-25 13:09:00+00:00
+[2024-06-26T14:13:56.878+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=73) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-26T14:13:56.879+0000] {standard_task_runner.py:63} INFO - Started process 104 to run task
+[2024-06-26T14:13:56.881+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'windturbine', 'file_sensor_task', 'scheduled__2024-06-25T13:09:00+00:00', '--job-id', '523', '--raw', '--subdir', 'DAGS_FOLDER/windturbine.py', '--cfg-path', '/tmp/tmpqns04e4e']
+[2024-06-26T14:13:56.882+0000] {standard_task_runner.py:91} INFO - Job 523: Subtask file_sensor_task
+[2024-06-26T14:13:56.918+0000] {task_command.py:426} INFO - Running <TaskInstance: windturbine.file_sensor_task scheduled__2024-06-25T13:09:00+00:00 [running]> on host 24f7195278eb
+[2024-06-26T14:13:56.978+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='liviataina.ltab@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='windturbine' AIRFLOW_CTX_TASK_ID='file_sensor_task' AIRFLOW_CTX_EXECUTION_DATE='2024-06-25T13:09:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-25T13:09:00+00:00'
+[2024-06-26T14:13:56.979+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-26T14:13:56.988+0000] {baseoperator.py:400} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2024-06-26T14:13:56.995+0000] {base.py:84} INFO - Using connection ID 'fs_default' for task execution.
+[2024-06-26T14:13:56.996+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:14:06.996+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:14:16.997+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:14:26.998+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:14:36.999+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:14:47.000+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:14:57.001+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:15:07.001+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:15:17.002+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:15:27.003+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:15:37.003+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:15:47.004+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:15:57.005+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:16:07.006+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:16:17.006+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:16:27.007+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:16:37.008+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:16:47.009+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:16:57.009+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:17:07.011+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:17:17.012+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:17:27.013+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:17:37.013+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:17:47.014+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
+[2024-06-26T14:17:57.015+0000] {filesystem.py:85} INFO - Poking for file /opt/***/data/data.json
